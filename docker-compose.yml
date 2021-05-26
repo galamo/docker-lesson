@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+    node_api:
+        image: node_api
+        ports:
+            - "3500:3000"
+    script_js:
+        image: node_script         
